@@ -1,0 +1,164 @@
+html{
+    margin: 0;
+    height: 100%;
+}
+body{
+    margin: 0;
+    height: 100%;
+    padding-top: 50px;
+    background-color: #fff;
+    background-image: url("../img/pink-dust.png");
+}
+/*=====================================================*/
+
+/*=========HEADER============*/
+header{
+    position: fixed;
+    width: 100%;
+    height: 50px;
+    background-color: rgba(0,0,0,.5);
+    color: hotpink;
+    padding: 10px;
+    top: 0;
+}
+
+header img{
+    float: right;
+    cursor: pointer;
+    padding-left: 10px;
+}
+
+.mostra-input{
+    float: right;
+    padding-right: 20px;
+    width: 100%;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #ccc;
+    background-color: rgba(255,255,255,.1);
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    display: block;
+}
+/*=====================*/
+.conteudo-form{
+    padding: 20px;
+    background-color: #FFFFFF;
+    width: 50%;
+    height: auto;
+    margin: 0px auto 0px auto;
+}
+
+@media screen and (max-width: 480px) {
+    .conteudo-form{
+        width: 100%;
+    }
+}
+@media screen and (max-width: 700px){
+    .conteudo-form{
+        width: 80%;
+    }
+}
+.conteudo-form h1{
+    text-align: center;
+    padding: 10px;
+}
+
+.campo-vazio{
+    border: solid red thin;
+}
+#datanasc{
+    width: 25%;
+}
+
+#notifica{
+    margin-top: 50px;
+    margin: 0px auto 0px auto;
+    width: 50%;
+    background-color: #FA8072;
+    color: #fff;
+    text-align: center;
+    border-radius: 4px;
+    padding: 10px;
+    display: none;
+}
+@media screen and (max-width: 680px){
+    #notifica{
+        height: auto;
+    }
+}
+/*=====================================================*/
+
+datalist option{
+    background-color: black;
+}
+
+.form-control {
+    display: block;
+    width: 100%;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+@media screen and (max-width: 480px) {
+    input#datanasc{
+        width: 100%;
+    }
+    input#cep{
+        width: 100%;
+    }
+    input#numero{
+        width: 100%;
+    }
+}
+.min{
+    width: 10%;
+}
+.med{
+    width: 50%;
+}
+#form-pesquisa{
+    float: right;
+    width: 25%;
+
+}
+.pesq{
+    float: right;
+    padding-right: 20px;
+    width: 100%;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #ccc;
+    background-color: rgba(255,255,255,.1);
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    display: none;
+}
+
+@media screen and (max-width: 680px)  {
+    #form-pesquisa{
+        float: right;
+        width: 50%;
+
+    }
+    .pesq{
+        width: 100%;
+    }
+    .mostra-input{
+        width: 100%;
+    }
+}
+
+.custon-font{
+    color: #7d7d7d;
+    text-align: center;
+}
+
+
